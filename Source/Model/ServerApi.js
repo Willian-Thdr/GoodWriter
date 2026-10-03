@@ -19,6 +19,6 @@ app.post("/api/client-error", (req, res) => {
     res.sendStatus(204);
 });
 
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, `http://localhost:${PORT}`, () => {
     console.log(`http://localhost:${PORT}`)
 });
