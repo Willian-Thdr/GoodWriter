@@ -1,0 +1,32 @@
+body {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wlpp1 {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 60vw;
+    object-fit: cover;
+}
+
+#blur {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 60vw;
+    background-color: #00000050;
+    object-fit: cover;
+    backdrop-filter: blur(4px);
+}
+
+h1 {
+    position: fixed;
+    font-size: 50pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 10px;
+    color: #d8bf88;
+}
