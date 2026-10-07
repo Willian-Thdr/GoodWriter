@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Source/Style/StyleMainWindow.css">
-    <script src="Source/Controller/MainWindowController.js"></script>
     <title>GoodWriter</title>
 </head>
 <body>
@@ -16,13 +14,14 @@
         <button id="enter_account">Login/Sing in</button>
         <button id="menu_button">☰</button>
         <div id="open_search_div">
-            <button id="open_search">⌕</button>
+            <button id="open_search" onclick="open_search()">⌕</button>
         </div>
-        <!-- <div id="search_div"> -->
-            <!-- <textarea name="search" id="seach" placeholder="Search"></textarea> -->
-        <!-- </div> -->
-        <button id="menu_button"></button>
+        <div id="search_div">
+            <textarea name="search" id="seach" placeholder="Search"></textarea>
+        </div>
     </div>
     <div id="divisor"></div>
+    <link rel="stylesheet" href="Source/Style/StyleMainWindow.css">
+    <script src="Source/Controller/MainWindowController.js"></script>
 </body>
 </html>

@@ -7,17 +7,17 @@ body {
 
 #wlpp1 {
     position: fixed;
-    top: 50px;
+    top: 5%;
     width: 100vw;
-    height: 55vw;
+    height: 100vh;
     object-fit: cover;
 }
 
 #blur {
     position: fixed;
-    top: 50px;
+    top: 5%;
     width: 100vw;
-    height: 55vw;
+    height: 100vh;
     background-color: #00000050;
     object-fit: cover;
     backdrop-filter: blur(4px);
@@ -27,9 +27,9 @@ body {
     position: fixed;
     display: flex;
     background-color: white;
-    top: 220px;
-    width: 1200px;
-    height: 100%;
+    top: 22%;
+    width: 75vw;
+    height: 78vh;
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +38,7 @@ body {
     position: fixed;
     background-color: #d8bf88;
     left: 0%;
-    top: 50px;
+    top: 5%;
     width: 100vw;
     height: 4px;
 }
@@ -48,29 +48,32 @@ body {
     display: flex;
     justify-content: center;
     background-color: #0d182c;
-    left: 0px;
-    top: 0px;
+    left: 0%;
+    top: 0%;
     width: 100vw;
-    height: 50px;
+    height: 5vh;
 }
 
 #enter_account {
     position: absolute;
-    right: 50px;
-    top: 12.5px;
-    width: 100px;
-    height: 25px;
+    right: 5%;
+    top: 25%;
+    width: 10vw;
+    height: 2.5vh;
+    font-size: 1.4vh;
     border-radius: 10px;
 }
 
 #menu_button {
     position: absolute;
-    left: 25px;
-    top: 12.5px;
-    width: 30px;
-    height: 25px;
+    left: 2.5%;
+    top: 25%;
+    width: 1.5vw;
+    height: 2.5vh;
     text-align: center;
     border-radius: 10px;
+    color: black;
+    font-size: 1.25vh;
 }
 
 #open_search_div {
@@ -85,23 +88,28 @@ body {
 
 #open_search {
     position: fixed;
-    border-radius: 15px;
-    left: 500px;
-    width: 30px;
-    height: 30px;
+    border-radius: 1.5rcap;
+    left: 30%;
+    width: 1.65%;
+    height: 3%;
+    font-size: 1.6vh;
 }
 
-#search_div {
+#search_div.clicked {
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #80808067;
     border-radius: 20px;
-    top: 10px;
-    left: 500px;
-    width: 550px;
-    height: 30px;
+    top: 1%;
+    left: 30%;
+    width: 40vw;
+    height: 3vh;
+}
+
+.willappair {
+    display: none;
 }
 
 #seach {
@@ -109,11 +117,11 @@ body {
     background: transparent;
     border-radius: 20px;
     border: transparent 0px none;
-    left: 500px;
-    width: 550px;
-    height: 16px;
+    left: 30%;
+    width: 40vw;
+    height: 1.6vh;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6vh;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: #d8bf88;
@@ -122,8 +130,8 @@ body {
 
 h1 {
     position: fixed;
-    font-size: 50pt;
+    font-size: 5vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    top: 60px;
+    top: 6%;
     color: #d8bf88;
 }
