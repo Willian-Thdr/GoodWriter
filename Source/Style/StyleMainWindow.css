@@ -40,7 +40,7 @@ body {
     left: 0%;
     top: 5%;
     width: 100vw;
-    height: 4px;
+    height: 0.4vh;
 }
 
 #menubar {
@@ -78,9 +78,9 @@ body {
 
 #open_search_div {
     position: fixed;
-    top: 10px;
-    width: 30px;
-    height: 30px;
+    top: 1%;
+    width: 3%;
+    height: 3%;
     border-radius: 15px;
     justify-content: center;
     align-items: center;
@@ -93,6 +93,12 @@ body {
     width: 1.65%;
     height: 3%;
     font-size: 1.6vh;
+}
+
+#search_div.normal {
+    width: 0px;
+
+    transition: width 0.5s ease;
 }
 
 #search_div.clicked {
@@ -110,9 +116,11 @@ body {
 
 .willappair {
     display: none;
+    width: 0px;
+    height: 0px;
 }
 
-#seach {
+#search {
     resize: none;
     background: transparent;
     border-radius: 20px;

@@ -5,7 +5,7 @@ const app = express();
 
 const PORT = 3000;
 
-app.get("/", (req, res) => {
+app.get("/myarchive", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "View", "MainWindow.html"));
 });
 
@@ -19,6 +19,6 @@ app.post("/api/client-error", (req, res) => {
     res.sendStatus(204);
 });
 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`http://localhost:${PORT}`)
+app.listen(PORT, () => {
+    console.log(`http://localhost:${PORT}/myarchive`)
 });
