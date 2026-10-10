@@ -1,0 +1,41 @@
+body {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wlpp1 {
+    position: fixed;
+    top: 5%;
+    width: 100vw;
+    height: 95vh;
+    object-fit: cover;
+}
+
+#blur {
+    position: fixed;
+    top: 5%;
+    width: 100vw;
+    height: 95vh;
+    background-color: #00000050;
+    object-fit: cover;
+    backdrop-filter: blur(4px);
+}
+
+#divisor {
+    position: fixed;
+    background-color: #d8bf88;
+    left: 0%;
+    top: 5%;
+    width: 100vw;
+    height: 0.4vh;
+}
+
+h1 {
+    position: fixed;
+    font-size: 4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 6%;
+    color: #d8bf88;
+}
