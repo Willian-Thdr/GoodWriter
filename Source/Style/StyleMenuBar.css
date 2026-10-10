@@ -11,10 +11,22 @@
     position: fixed;
     top: 1.25%;
     right: 5%;
+    width: 20vw;
+    height: 2.5vh;
+    font-size: 1.25vh;
+    border-radius: 21px;
+    border: 0px transparent none;
+    text-align: center;
 }
 
 #menu_button {
     position: fixed;
     top: 1.25%;
     left: 5%;
+    width: 7vw;
+    height: 2.5vh;
+    font-size: 1.25vh;
+    border-radius: 21px;
+    border: 0px transparent none;
+    text-align: center;
 }

@@ -11,7 +11,6 @@
     "url": "git+https://github.com/Willian-Thdr/GoodWriter.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -19,7 +18,7 @@
   },
   "homepage": "https://github.com/Willian-Thdr/GoodWriter#readme",
   "dependencies": {
-    "express": "^5.2.1",
+    "express": "^5.3.0",
     "sqlite3": "^6.0.1"
   }
 }
