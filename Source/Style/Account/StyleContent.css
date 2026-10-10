@@ -1,0 +1,45 @@
+#Content {
+    position: fixed;
+    top: 15%;
+    left: 0%;
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+}
+
+#bookshelf {
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    width: 45vw;
+    height: 76vh;
+    background-color: white;
+    text-align: center;
+}
+
+#banner {
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+    width: 35vw;
+    height: 35vh;
+    background: white;
+}
+
+#work_area {
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+    width: 35vw;
+    height: 35vh;
+    background: white;
+}
+
+#Bookshelf_image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #3c3c3c;
+}

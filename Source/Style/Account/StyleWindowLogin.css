@@ -5,20 +5,12 @@ body {
     align-items: center;
 }
 
-#wlpp1 {
+#background {
     position: fixed;
     top: 5%;
     width: 100vw;
     height: 95vh;
-    object-fit: cover;
-}
-
-#blur {
-    position: fixed;
-    top: 5%;
-    width: 100vw;
-    height: 95vh;
-    background-color: #00000050;
+    background-image: linear-gradient(to right, #77ad56,#1d4175);
     object-fit: cover;
     backdrop-filter: blur(4px);
 }
@@ -34,8 +26,9 @@ body {
 
 h1 {
     position: fixed;
-    font-size: 4vh;
+    font-size: 300%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     top: 6%;
+    left: 10%;
     color: #d8bf88;
 }
