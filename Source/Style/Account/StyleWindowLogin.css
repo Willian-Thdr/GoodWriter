@@ -10,7 +10,7 @@ body {
     top: 5%;
     width: 100vw;
     height: 95vh;
-    background-image: linear-gradient(to right, #77ad56,#1d4175);
+    background: radial-gradient(circle 500px at 75% 25%, #ece4c4 10%, #dccf98 100%);
     object-fit: cover;
     backdrop-filter: blur(4px);
 }
