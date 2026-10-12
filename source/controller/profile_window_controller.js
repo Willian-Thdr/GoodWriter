@@ -8,8 +8,8 @@ function loop() {
     const vh = window.innerHeight;
     const vw = window.innerWidth;
 
-    const p_pixel = Math.min(1500, Math.max(300, vw - vh))/50;
-    const title_pixel = Math.min(2000, Math.max(350, vw - vh))/50;
+    const p_pixel = Math.min(1510, Math.max(310, vw - vh))/40;
+    const title_pixel = Math.min(2000, Math.max(500, vw - vh))/40;
 
     text_style.forEach(element => {
         element.style.fontSize = `${p_pixel}px`;
