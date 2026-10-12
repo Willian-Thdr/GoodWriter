@@ -17,18 +17,9 @@ body {
 
 #divisor {
     position: fixed;
-    background-color: #d8bf88;
+    background-color: #ffffff;
     left: 0%;
-    top: 5%;
+    top: 10%;
     width: 100vw;
     height: 0.4vh;
-}
-
-h1 {
-    position: fixed;
-    font-size: 300%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    top: 6%;
-    left: 10%;
-    color: #d8bf88;
 }

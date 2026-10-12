@@ -1,3 +1,3 @@
 #!/bin/bash
-cd Source/Model
-node ServerApi.js
+cd source/model
+node server_api.js
