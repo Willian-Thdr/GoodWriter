@@ -29,9 +29,99 @@
     display: flex;
     top: 10%;
     left: 27%;
-    width: 10vw;
+    width: 15vw;
     height: 5vh;
-    background: white;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#user_name_text {
+    position: absolute;
+    font-size: 2vh;
+}
+
+#public_user_name {
+    position: absolute;
+    display: flex;
+    top: 18%;
+    left: 29%;
+    width: 15vw;
+    height: 5vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#public_user_name_text {
+    position: absolute;
+    font-size: 2vh;
+}
+
+#user_links {
+    position: absolute;
+    display: flex;
+    top: 48%;
+    left: 13%;
+    width: 20vw;
+    height: 20vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#links {
+    position: absolute;
+    font-size: 2vh;
+}
+
+#user_bio {
+    position: absolute;
+    display: flex;
+    top: 73%;
+    left: 16%;
+    width: 25vw;
+    height: 20vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#biography {
+    position: absolute;
+    font-size: 2vh;
+}
+
+#user_statistics {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    right: 16%;
+    width: 30vw;
+    height: 30vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#public_user_name_text {
+    position: absolute;
+    font-size: 2vh;
+}
+
+#user_projects {
+    position: absolute;
+    display: flex;
+    top: 48%;
+    right: 19%;
+    width: 30vw;
+    height: 30vh;
+    background: #976f58;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
