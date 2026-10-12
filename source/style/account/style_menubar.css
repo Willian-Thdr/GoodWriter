@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-#title {
+#writer_archive_title {
     position: absolute;
 }
 
@@ -47,7 +47,6 @@ h1 {
 
 #menu_button_content {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
     margin: 0vh 1vh;
 }
 
@@ -55,7 +54,6 @@ h1 {
     position: absolute;
     left: 27%;
     text-align: left;
-    font-size: 1.5em;
 }
 
 #stars_show {
@@ -63,7 +61,6 @@ h1 {
     left: 29%;
     width: 10vw;
     height: 2.5vh;
-    font-size: 1.25em;
     text-align: left;
 }
 
@@ -71,7 +68,6 @@ h1 {
     position: absolute;
     left: 15%;
     text-align: left;
-    font-size: 1.5em;
 }
 
 #credits_show {
@@ -79,6 +75,5 @@ h1 {
     left: 17%;
     width: 10vw;
     height: 2.5vh;
-    font-size: 1.25em;
     text-align: left;
 }

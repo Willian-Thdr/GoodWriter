@@ -37,9 +37,8 @@
     border-radius: 2.5vw;
 }
 
-#user_name_text {
+.normal_fonts {
     position: absolute;
-    font-size: 1vw;
 }
 
 #public_user_name {
@@ -55,11 +54,6 @@
     border-radius: 2.5vw;
 }
 
-#public_user_name_text {
-    position: absolute;
-    font-size: 1vw;
-}
-
 #user_links {
     position: absolute;
     display: flex;
@@ -71,11 +65,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 2.5vw;
-}
-
-#links {
-    position: absolute;
-    font-size: 1vw;
 }
 
 #user_bio {
@@ -91,11 +80,6 @@
     border-radius: 2.5vw;
 }
 
-#biography {
-    position: absolute;
-    font-size: 1vw;
-}
-
 #user_statistics {
     position: absolute;
     display: flex;
@@ -107,11 +91,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 2.5vw;
-}
-
-#public_user_name_text {
-    position: absolute;
-    font-size: 1vw;
 }
 
 #user_projects {
