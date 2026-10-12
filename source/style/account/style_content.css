@@ -10,8 +10,8 @@
     position: absolute;
     top: 10%;
     left: 10%;
-    width: 30vh;
-    height: 30%;
+    width: 15vw;
+    height: 30vh;
 }
 
 #profile_image {
@@ -39,7 +39,7 @@
 
 #user_name_text {
     position: absolute;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #public_user_name {
@@ -57,7 +57,7 @@
 
 #public_user_name_text {
     position: absolute;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #user_links {
@@ -75,7 +75,7 @@
 
 #links {
     position: absolute;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #user_bio {
@@ -93,7 +93,7 @@
 
 #biography {
     position: absolute;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #user_statistics {
@@ -111,7 +111,7 @@
 
 #public_user_name_text {
     position: absolute;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #user_projects {
