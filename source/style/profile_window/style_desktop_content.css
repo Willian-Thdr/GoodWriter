@@ -1,4 +1,4 @@
-#content {
+#desktop_content {
     position: fixed;
     top: 10.4%;
     left: 0%;
@@ -38,6 +38,10 @@
 }
 
 .normal_fonts {
+    position: absolute;
+}
+
+.mobile_fonts {
     position: absolute;
 }
 

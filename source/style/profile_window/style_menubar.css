@@ -1,6 +1,5 @@
-#menubar {
+#desktop_menubar {
     position: fixed;
-    display: flex;
     top: 0%;
     left: 0%;
     background: #976f58;
@@ -11,12 +10,7 @@
     align-items: center;
 }
 
-#writer_archive_title {
-    position: absolute;
-}
-
 h1 {
-    font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000000;
     margin: 0%;

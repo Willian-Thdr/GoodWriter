@@ -1,0 +1,107 @@
+#mobile_content {
+    position: fixed;
+    top: 10.4%;
+    left: 0%;
+    width: 100vw;
+    height: 89.6vh;
+}
+
+#profile_image_div {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 30vw;
+    height: 15vh;
+}
+
+#profile_image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 2.5vw;
+}
+
+#user_name {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 40%;
+    width: 25vw;
+    height: 2.5vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+
+.mobile_fonts {
+    position: absolute;
+}
+
+#public_user_name {
+    position: absolute;
+    display: flex;
+    top: 8.7%;
+    left: 45%;
+    width: 25vw;
+    height: 2.5vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+
+#user_links {
+    position: absolute;
+    display: flex;
+    top: 22.7%;
+    left: 5%;
+    width: 30vw;
+    height: 10vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+
+#user_bio {
+    position: absolute;
+    display: flex;
+    top: 17.4%;
+    left: 40%;
+    width: 55vw;
+    height: 15vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+
+#user_statistics {
+    position: absolute;
+    display: flex;
+    top: 43.87%;
+    left: 5%;
+    width: 90vw;
+    height: 15vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}
+
+#user_projects {
+    position: absolute;
+    display: flex;
+    top: 65.61%;
+    left: 5%;
+    width: 90vw;
+    height: 15vh;
+    background: #976f58;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+}

@@ -6,45 +6,82 @@
     <title>GoodWriter</title>
 </head>
 <body>
-    <div id="background"></div>
-    <div id="menubar">
-        <div id="writer_archive_title">
-            <h1>My Writer Archive</h1>
+    <div class="content_window">
+        <div id="background"></div>
+        <div id="desktop_menubar">
+            <div id="writer_archive_title_desktop">
+                <h1>My Writer Archive</h1>
+            </div>
+            <p class="normal_fonts" id="my_stars">★</p>
+            <p class="normal_fonts" id="stars_show">0</p>
+            <p class="normal_fonts" id="my_credits">cr</p>
+            <p class="normal_fonts" id="credits_show">0</p>
+            <button class="normal_fonts" id="enter_account">
+                <p id="enter_account_content">Login/Sing in</p>
+            </button>
+            <button class="normal_fonts" id="menu_button">
+                <p id="menu_button_content">Menu ☰</p>
+            </button>
         </div>
-        <p class="normal_fonts" id="my_stars">★</p>
-        <p class="normal_fonts" id="stars_show">0</p>
-        <p class="normal_fonts" id="my_credits">cr</p>
-        <p class="normal_fonts" id="credits_show">0</p>
-        <button class="normal_fonts" id="enter_account">
-            <p id="enter_account_content">Login/Sing in</p>
-        </button>
-        <button class="normal_fonts" id="menu_button">
-            <p id="menu_button_content">Menu ☰</p>
-        </button>
+    
+        <div id="mobile_menubar">
+            <div id="writer_archive_title_mobile">
+                <h1>My Writer Archive</h1>
+            </div>
+            <p class="mobile_fonts" id="my_stars">★</p>
+            <p class="mobile_fonts" id="stars_show">0</p>
+            <p class="mobile_fonts" id="my_credits">cr</p>
+            <p class="mobile_fonts" id="credits_show">0</p>
+            <button class="mobile_fonts" id="enter_account">
+                <p id="enter_account_content">Login/Sing in</p>
+            </button>
+            <button class="mobile_fonts" id="menu_button">
+                <p id="menu_button_content">☰</p>
+            </button>
+        </div>
+        <div id="divisor"></div>
+        <div id="desktop_content">
+            <div id="profile_image_div">
+                <img src="../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
+            </div>
+            <div id="user_name">
+                <p class="normal_fonts">User name</p>
+            </div>
+            <div id="public_user_name">
+                <p class="normal_fonts">Public user name</p>
+            </div>
+            <div id="user_bio">
+                <p class="normal_fonts">Biography</p>
+            </div>
+            <div id="user_links">
+                <p class="normal_fonts">Links</p>
+            </div>
+            <div id="user_statistics"></div>
+            <div id="user_projects"></div>
+        </div>
+    
+        <div id="mobile_content">
+            <div id="profile_image_div">
+                <img src="../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
+            </div>
+            <div id="user_name">
+                <p class="mobile_fonts">User name</p>
+            </div>
+            <div id="public_user_name">
+                <p class="mobile_fonts">Public user name</p>
+            </div>
+            <div id="user_bio">
+                <p class="mobile_fonts">Biography</p>
+            </div>
+            <div id="user_links">
+                <p class="mobile_fonts">Links</p>
+            </div>
+            <div id="user_statistics"></div>
+            <div id="user_projects"></div>
+        </div>
     </div>
-    <div id="divisor"></div>
-    <div id="content">
-        <div id="profile_image_div">
-            <img src="../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
-        </div>
-        <div id="user_name">
-            <p class="normal_fonts">User name</p>
-        </div>
-        <div id="public_user_name">
-            <p class="normal_fonts">Public user name</p>
-        </div>
-        <div id="user_bio">
-            <p class="normal_fonts">Biography</p>
-        </div>
-        <div id="user_links">
-            <p class="normal_fonts">Links</p>
-        </div>
-        <div id="user_statistics"></div>
-        <div id="user_projects"></div>
-    </div>
+
     <link rel="stylesheet" href="source/style/profile_window/style_window_login.css">
-    <link rel="stylesheet" href="source/style/profile_window/style_menubar.css">
-    <link rel="stylesheet" href="source/style/profile_window/style_content.css">
     <script src="source/controller/profile_window_controller.js"></script>
 </body>
 </html>
