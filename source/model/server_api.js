@@ -21,7 +21,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/myarchive", (req, res) => {
-    res.sendFile(path.join(__dirname, "..", "view", "profile_window.html"));
+    res.sendFile(path.join(__dirname, "..", "view", "profile_window", "profile_window.html"));
 });
 
 app.use(express.static(path.join(__dirname, "../..")));

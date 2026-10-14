@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,16 @@
 <body>
     <div class="content_window">
         <div id="background"></div>
+
         <div id="desktop_menubar">
             <div id="writer_archive_title_desktop">
-                <h1>My Writer Archive</h1>
+                <h1 id="profile_window_title">My Writer Archive</h1>
             </div>
             <p class="normal_fonts" id="my_stars">★</p>
             <p class="normal_fonts" id="stars_show">0</p>
             <p class="normal_fonts" id="my_credits">cr</p>
             <p class="normal_fonts" id="credits_show">0</p>
-            <button class="normal_fonts" id="enter_account">
+            <button class="normal_fonts" id="enter_account" onclick="entry()">
                 <p id="enter_account_content">Login/Sing in</p>
             </button>
             <button class="normal_fonts" id="menu_button">
@@ -35,10 +36,12 @@
                 <p id="menu_button_content">☰</p>
             </button>
         </div>
+
         <div id="divisor"></div>
+
         <div id="desktop_content">
             <div id="profile_image_div">
-                <img src="../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
+                <img src="../../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
             </div>
             <div id="user_name">
                 <p class="normal_fonts">User name</p>
@@ -55,10 +58,10 @@
             <div id="user_statistics"></div>
             <div id="user_projects"></div>
         </div>
-    
+
         <div id="mobile_content">
             <div id="profile_image_div">
-                <img src="../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
+                <img src="../../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
             </div>
             <div id="user_name">
                 <p class="mobile_fonts">User name</p>
@@ -81,7 +84,8 @@
         </div>
     </div>
 
-    <link rel="stylesheet" href="source/style/profile_window/style_window_login.css">
-    <script src="source/controller/profile_window_controller.js"></script>
+    <link rel="stylesheet" href="source/style/profile_window/style_window_profile.css">
+    <script src="source/controller/profile_window_controller/controller.js"></script>
+    <script src="source/controller/profile_window_controller/window_actions.js"></script>
 </body>
 </html>

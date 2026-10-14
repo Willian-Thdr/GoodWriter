@@ -1,1 +1,12 @@
 /node_modules
+
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Bancos locais com dados reais
+data/*.db
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
