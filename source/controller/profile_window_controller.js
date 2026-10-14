@@ -33,8 +33,9 @@ function loop() {
         document.head.appendChild(link_style_menubar);
         document.head.appendChild(link_style_content);
 
-        const p_pixel = (vh - vw)/40;
-        const title_pixel = (vh - vw)/40;
+        const p_pixel = Math.min(600, Math.max(400, vh - vw))/40;
+        const title_pixel = Math.min(700, Math.max(300, vh - vw))/40;
+
         
         mobile_text_style.forEach(element => {
             element.style.fontSize = `${p_pixel}px`;

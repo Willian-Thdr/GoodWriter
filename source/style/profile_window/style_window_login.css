@@ -15,15 +15,6 @@ body {
     backdrop-filter: blur(4px);
 }
 
-#divisor {
-    position: fixed;
-    background-color: #ffffff;
-    left: 0%;
-    top: 10%;
-    width: 100vw;
-    height: 0.4vh;
-}
-
 .content_window {
     position: fixed;
     top: 0%;

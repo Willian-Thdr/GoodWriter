@@ -109,3 +109,12 @@
     align-items: center;
     border-radius: 2.5vw;
 }
+
+#divisor {
+    position: fixed;
+    background-color: #ffffff;
+    left: 0%;
+    top: 10vh;
+    width: 100vw;
+    height: 0.4vh;
+}

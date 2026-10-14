@@ -105,3 +105,50 @@
     align-items: center;
     border-radius: 2.5vw;
 }
+
+#divisor {
+    position: fixed;
+    background-color: #ffffff;
+    left: 0%;
+    top: 9vh;
+    width: 100vw;
+    height: 0.4vh;
+}
+
+#my_stars {
+    position: absolute;
+    top: 5%;
+    right: 16%;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+}
+
+#stars_show {
+    position: absolute;
+    top: 5%;
+    right: 12.5%;
+    width: 10vw;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+}
+
+#my_credits {
+    position: absolute;
+    top: 7%;
+    right: 16%;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+}
+
+#credits_show {
+    position: absolute;
+    top: 7%;
+    right: 12.5%;
+    width: 10vw;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+}

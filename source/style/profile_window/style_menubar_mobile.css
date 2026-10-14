@@ -19,6 +19,7 @@ h1 {
 
 #enter_account {
     position: absolute;
+    width: 15vw;
     right: 2.5%;
     border-radius: 10px;
     border: 0px transparent none;
@@ -27,12 +28,13 @@ h1 {
 
 #enter_account_content {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0vh 0.25vh;
+    margin: 0vh 0.25vw;
 }
 
 #menu_button {
     position: absolute;
     left: 2.5%;
+    width: 5vw;
     border-radius: 10px;
     border: 0px transparent none;
     text-align: center;
@@ -40,31 +42,5 @@ h1 {
 
 #menu_button_content {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0vh 0.25vh;
-}
-
-#my_stars {
-    position: absolute;
-    left: 24.5%;
-    text-align: left;
-}
-
-#stars_show {
-    position: absolute;
-    left: 26.5%;
-    width: 10vw;
-    text-align: left;
-}
-
-#my_credits {
-    position: absolute;
-    left: 12.5%;
-    text-align: left;
-}
-
-#credits_show {
-    position: absolute;
-    left: 14.5%;
-    width: 10vw;
-    text-align: left;
+    margin: 0vh 0.25vw;
 }
