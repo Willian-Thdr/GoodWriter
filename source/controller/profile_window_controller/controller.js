@@ -2,14 +2,17 @@
 const open_search_button = document.getElementById("open_search");
 const search_div = document.getElementById("search_div");
 const search = document.getElementById("search");
-const text_style = document.querySelectorAll(".normal_fonts");
-const mobile_text_style = document.querySelectorAll(".mobile_fonts");
 const desktop_content = document.getElementById("desktop_content");
 const mobile_content = document.getElementById("mobile_content");
 const desktop_menubar = document.getElementById("desktop_menubar");
 const mobile_menubar = document.getElementById("mobile_menubar");
 const title_mobile = document.getElementById("writer_archive_title_mobile");
 const title_desktop = document.getElementById("writer_archive_title_desktop");
+
+// Elementos em classes
+const text_style = document.querySelectorAll(".normal_fonts");
+const mobile_text_style = document.querySelectorAll(".mobile_fonts");
+const image_adaptive = document.querySelectorAll(".size_adaptative");
 
 // Elementos adicionados no HTML
 const link_style_menubar = document.createElement("link");
@@ -35,11 +38,17 @@ function loop() {
 
         const p_pixel = Math.min(600, Math.max(400, vh - vw))/40;
         const title_pixel = Math.min(700, Math.max(300, vh - vw))/40;
-
+        const new_size = Math.min(14400, Math.max(4, 2*vh - vw))/6.5;
         
         mobile_text_style.forEach(element => {
             element.style.fontSize = `${p_pixel}px`;
         });
+
+        image_adaptive.forEach(element => {
+            element.style.width = `${new_size}px`
+            element.style.height = `${new_size}px`
+        });
+
         
         title_mobile.style.fontSize = `${title_pixel}px`;
     } else {
@@ -58,7 +67,13 @@ function loop() {
 
         const p_pixel = Math.min(1510, Math.max(310, vw - vh))/40;
         const title_pixel = Math.min(2000, Math.max(500, vw - vh))/30;
-    
+        const new_size = Math.min(14400, Math.max(4, 2*vw - vh))/9;
+        
+        image_adaptive.forEach(element => {
+            element.style.width = `${new_size}px`
+            element.style.height = `${new_size}px`
+        });
+
         text_style.forEach(element => {
             element.style.fontSize = `${p_pixel}px`;
         });

@@ -7,3 +7,7 @@ function entry() {
 }
 
 window.entry = entry
+
+function change_image() {
+    console.log("alterar imagem");
+}

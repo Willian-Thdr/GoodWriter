@@ -10,8 +10,6 @@
     position: absolute;
     top: 10%;
     left: 10%;
-    width: 15vw;
-    height: 30vh;
 }
 
 #profile_image {
@@ -41,8 +39,8 @@
     position: absolute;
 }
 
-.mobile_fonts {
-    position: absolute;
+.size_adaptative {
+    display: flex;
 }
 
 #public_user_name {
@@ -117,4 +115,22 @@
     top: 10vh;
     width: 100vw;
     height: 0.4vh;
+}
+
+#pencil {
+    position: absolute;
+    display: flex;
+    top: 36.5%;
+    left: 27%;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+#pencil_image {
+    width: 1.5vw;
+    height: 3vh;
 }

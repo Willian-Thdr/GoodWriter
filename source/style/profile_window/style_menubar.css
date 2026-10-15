@@ -2,7 +2,7 @@
     position: fixed;
     top: 0%;
     left: 0%;
-    background: #976f58;
+    background: linear-gradient(to right, #976f58, #d3b564, #976f58);
     width: 100vw;
     height: 10vh;
     text-align: center;

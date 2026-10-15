@@ -41,7 +41,7 @@
 
         <div id="desktop_content">
             <div id="profile_image_div">
-                <img src="../../../assets/original_images/nan_user.png" alt="profile image" id="profile_image">
+                <img src="../../../assets/original_images/nan_user.png" alt="profile image" id="profile_image" class="size_adaptative">
             </div>
             <div id="user_name">
                 <p class="normal_fonts">User name</p>
@@ -57,6 +57,9 @@
             </div>
             <div id="user_statistics"></div>
             <div id="user_projects"></div>
+            <button id="pencil" onclick="change_image()">
+                <img src="/assets/original_images/pencil.png" alt="mudar foto de perfil" id="pencil_image">
+            </button>
         </div>
 
         <div id="mobile_content">
@@ -85,7 +88,7 @@
     </div>
 
     <link rel="stylesheet" href="/source/style/profile_window/style_window_profile.css">
-    <script type="module" src="/source/controller/profile_window_controller/controller.js"></script>
-    <script type="module" src="/source/controller/profile_window_controller/window_actions.js"></script>
+    <script src="/source/controller/profile_window_controller/controller.js"></script>
+    <script src="/source/controller/profile_window_controller/window_actions.js"></script>
 </body>
 </html>
