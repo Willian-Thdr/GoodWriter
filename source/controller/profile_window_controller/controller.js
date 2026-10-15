@@ -1,4 +1,4 @@
-// Elementos presentes no HTML
+// Elementos em IDs
 const open_search_button = document.getElementById("open_search");
 const search_div = document.getElementById("search_div");
 const search = document.getElementById("search");
@@ -8,6 +8,7 @@ const desktop_menubar = document.getElementById("desktop_menubar");
 const mobile_menubar = document.getElementById("mobile_menubar");
 const title_mobile = document.getElementById("writer_archive_title_mobile");
 const title_desktop = document.getElementById("writer_archive_title_desktop");
+const pencil = document.getElementById("pencil");
 
 // Elementos em classes
 const text_style = document.querySelectorAll(".normal_fonts");
@@ -23,6 +24,8 @@ function loop() {
     const vw = window.innerWidth;
 
     if (vh > vw) {
+        // Ativação/desativação de styles na interface
+        
         desktop_content.style.display = "none";
         mobile_content.style.display = "flex";
         desktop_menubar.style.display = "none";
@@ -36,22 +39,30 @@ function loop() {
         document.head.appendChild(link_style_menubar);
         document.head.appendChild(link_style_content);
 
-        const p_pixel = Math.min(600, Math.max(400, vh - vw))/40;
-        const title_pixel = Math.min(700, Math.max(300, vh - vw))/40;
-        const new_size = Math.min(14400, Math.max(4, 2*vh - vw))/6.5;
+        // Adaptação da forma e tamanho de elementos na interface
+
+        // Cálculo
+
+        const new_p_element_size = Math.min(600, Math.max(400, vh - vw))/40;
+        const new_title_font_size = Math.min(700, Math.max(300, vh - vw))/40;
+        const new_image_profile_size = Math.min(14400, Math.max(4, 2*vh - vw))/6.5;
         
+        // Modificação
+
         mobile_text_style.forEach(element => {
-            element.style.fontSize = `${p_pixel}px`;
+            element.style.fontSize = `${new_p_element_size}px`;
         });
 
         image_adaptive.forEach(element => {
-            element.style.width = `${new_size}px`
-            element.style.height = `${new_size}px`
+            element.style.width = `${new_image_profile_size}px`
+            element.style.height = `${new_image_profile_size}px`
         });
 
-        
-        title_mobile.style.fontSize = `${title_pixel}px`;
+        title_mobile.style.fontSize = `${new_title_font_size}px`;
+
     } else {
+        // Ativação/desativação de styles na interface
+
         desktop_content.style.display = "flex";
         mobile_content.style.display = "none";
         desktop_menubar.style.display = "flex";
@@ -65,20 +76,30 @@ function loop() {
         document.head.appendChild(link_style_menubar);
         document.head.appendChild(link_style_content);
 
-        const p_pixel = Math.min(1510, Math.max(310, vw - vh))/40;
-        const title_pixel = Math.min(2000, Math.max(500, vw - vh))/30;
-        const new_size = Math.min(14400, Math.max(4, 2*vw - vh))/9;
+        // Adaptação da forma e tamanho de elementos na interface
+
+        // Cálculo
+
+        const new_p_element_size = Math.min(1510, Math.max(310, vw - vh))/40;
+        const new_title_font_size = Math.min(2000, Math.max(500, vw - vh))/30;
+        const new_image_profile_size = Math.min(14400, Math.max(4, 2*vw - vh))/9;
+        const new_pencil_size = Math.min(14400, Math.max(4.5, 2*vw - vh))/45;
         
+        // Modificação
+
         image_adaptive.forEach(element => {
-            element.style.width = `${new_size}px`
-            element.style.height = `${new_size}px`
+            element.style.width = `${new_image_profile_size}px`
+            element.style.height = `${new_image_profile_size}px`
         });
 
         text_style.forEach(element => {
-            element.style.fontSize = `${p_pixel}px`;
+            element.style.fontSize = `${new_p_element_size}px`;
         });
     
-        title_desktop.style.fontSize = `${title_pixel}px`;
+        title_desktop.style.fontSize = `${new_title_font_size}px`;
+
+        pencil.style.width = `${new_pencil_size}px`;
+        pencil.style.height = `${new_pencil_size}px`;
     }
 
     requestAnimationFrame(loop);
@@ -97,6 +118,8 @@ document.addEventListener("keydown", function(event) {
         search.classList.remove("appair");
     }
 })
+
+console.log(`Width:${window.innerWidth};Height:${window.innerHeight}`)
 
 window.addEventListener("resize", loop);
 loop();

@@ -120,10 +120,8 @@
 #pencil {
     position: absolute;
     display: flex;
-    top: 36.5%;
-    left: 27%;
-    width: 2vw;
-    height: 4vh;
+    top: 31vh;
+    left: 27vw;
     border-radius: 100%;
     border: 1px solid black;
     justify-content: center;
@@ -131,6 +129,6 @@
 }
 
 #pencil_image {
-    width: 1.5vw;
-    height: 3vh;
+    width: 90%;
+    height: 90%;
 }
