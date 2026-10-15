@@ -34,6 +34,18 @@ app.post("/api/client-error", (req, res) => {
     res.sendStatus(204);
 });
 
+app.post("/api/userdata", (req, res) => {
+    res.status(200).json({
+        status: "Activate"
+    });
+});
+
+app.get("/api/userdata", (req, res) => {
+    res.json({
+        status: "Received"
+    });
+});
+
 app.listen(PORT, `${ipv4}`, () => {
     console.log(`http://${ipv4}:${PORT}/myarchive`);
 });

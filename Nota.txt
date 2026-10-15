@@ -1,1 +1,0 @@
-O tempo em que ficarei sem mexer no código é devido eu estar tentando fazer um cálculo que adapte a posição de um elemento de acordo com o tamanho da tela

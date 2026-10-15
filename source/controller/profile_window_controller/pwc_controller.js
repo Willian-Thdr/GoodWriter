@@ -83,7 +83,7 @@ function loop() {
         const new_p_element_size = Math.min(1510, Math.max(310, vw - vh))/40;
         const new_title_font_size = Math.min(2000, Math.max(500, vw - vh))/30;
         const new_image_profile_size = Math.min(14400, Math.max(4, 2*vw - vh))/9;
-        const new_pencil_size = Math.min(14400, Math.max(4.5, 2*vw - vh))/45;
+        const new_pencil_size = Math.min(14400, Math.max(4.5, 2*vw - vh))/75;
         
         // Modificação
 
@@ -118,8 +118,6 @@ document.addEventListener("keydown", function(event) {
         search.classList.remove("appair");
     }
 })
-
-console.log(`Width:${window.innerWidth};Height:${window.innerHeight}`)
 
 window.addEventListener("resize", loop);
 loop();
