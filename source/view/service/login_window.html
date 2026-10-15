@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign In</title>
+</head>
+<body>
+    <div id="all_content">
+        <div id="blur">
+            <img src="/assets/wallpaper/images.jpeg" alt="wallpaper" id="wallpaper">
+        </div>
+
+        <div id="bar">
+            <h1 id="login_title">Login/Sign In</h1>
+        </div>
+
+        <div id="content">
+            <img src="/assets/original_images/github_icon.png" alt="my_gythub_page" onclick="github_redirect()" id="github_redirect" class="size_adaptative">
+            <div id="line1">
+                <textarea name="email" id="email_entry" placeholder="put your email" class="normal_font" class="font_adaptative"></textarea>
+            </div>
+            <div id="line2">
+                <input type="password" name="password" id="password_entry" placeholder="set your password" class="normal_font" class="font_adaptative"></textarea>
+            </div>      
+            <div id="line3">
+                <input type="password" name="password confirm" id="password_confirm" placeholder="confirm your password" class="normal_font" class="font_adaptative"></input>
+            </div>
+            <div id="line4">
+                <textarea name="name" id="name_entry" placeholder="Set your name" class="normal_font" class="font_adaptative"></textarea>
+            </div>
+            <button id="confirm_button" onclick="confirm()" class="font_adaptative">
+                Avançar
+            </button>
+            <button id="back_button" onclick="voltar()" class="font_adaptative">
+                Voltar
+            </button>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="/source/style/login_window/login_window_style.css">
+    <link rel="stylesheet" href="/source/style/login_window/login_window_content.css">
+    <script src="/source/controller/login_window_controller/controller.js"></script>
+</body>
+</html>

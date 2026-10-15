@@ -1,0 +1,151 @@
+#line1 {
+    position: absolute;   
+    display: flex;
+    top: 40%;
+    left: 5%;
+    width: 68vw;
+    height: 4vh;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#line2 {
+    position: absolute;   
+    display: flex;
+    top: 52%;
+    left: 5%;
+    width: 68vw;
+    height: 4vh;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#line3 {
+    position: absolute;   
+    display: flex;
+    top: 64%;
+    left: 5%;
+    width: 68vw;
+    height: 4vh;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#line4 {
+    position: absolute;   
+    display: flex;
+    top: 76%;
+    left: 5%;
+    width: 68vw;
+    height: 4vh;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#email_entry {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 2% 2% 1%;
+    resize: none;
+    text-wrap: nowrap;
+    background: #020b25e8;
+    color: #fce9b6e8;
+    overflow-x: auto;
+    border-radius: 7px;
+}
+
+#password_entry {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 2% 2% 1%;
+    resize: none;
+    text-wrap: nowrap;
+    background: #020b25e8;
+    color: #fce9b6e8;
+    overflow-x: auto;
+    border-radius: 7px;
+}
+
+#password_confirm {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 2% 2% 1%;
+    resize: none;
+    text-wrap: nowrap;
+    background: #020b25e8;
+    color: #fce9b6e8;
+    overflow-x: auto;
+    border-radius: 7px;
+}
+
+#name_entry {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 2% 2% 1%;
+    resize: none;
+    text-wrap: nowrap;
+    background: #020b25e8;
+    color: #fce9b6e8;
+    overflow-x: auto;
+    border-radius: 7px;
+}
+
+#confirm_button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 7px;
+    background: white;
+    border: 1px solid #d1b16be8;
+}
+
+#back_button {
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+    border-radius: 7px;
+    background: white;
+    border: 1px solid #d1b16be8;
+}
+
+@font-face {
+    font-family: MyMonospaceFont;
+    src: url("/assets/text_fonts/Iosevka_charon_mono/IosevkaCharonMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.normal_font {
+    font-family: MyMonospaceFont;
+    font-size: 12px;
+}
+
+#github_redirect {
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+.size_adaptative {
+    display: flex;
+}
+
+.font_adaptative {
+    display: flex;
+}
