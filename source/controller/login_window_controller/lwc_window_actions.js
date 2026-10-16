@@ -32,39 +32,7 @@ function confirm() {
                 name: elements[3]
             }
 
-            send(data);
-
             // window.close();
         }
-    }
-}
-
-async function send(content) {
-    try {
-        const answer = await fetch("/api/userdata",
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "Accept": "application/json"
-                },
-                body: JSON.stringify(
-                    content,
-                    ["email", "password", "name"],
-                    3
-                )
-            }
-        );
-
-        const data = await answer.json();
-
-        if(!answer.ok) {
-            throw new Error(
-                data.erro ?? `Erro HTTP: ${answer.status}`
-            );
-        }
-        console.log(content)
-    } catch (erro) {
-        console.log(erro.message);
     }
 }
